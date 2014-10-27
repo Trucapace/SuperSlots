@@ -13,6 +13,8 @@
 		C69D14A919FD82F400294996 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69D14A819FD82F400294996 /* Images.xcassets */; };
 		C69D14AC19FD82F400294996 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C69D14AA19FD82F400294996 /* LaunchScreen.xib */; };
 		C69D14B819FD82F400294996 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D14B719FD82F400294996 /* SlotMachineTests.swift */; };
+		C69D14F719FDC99C00294996 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D14F619FDC99C00294996 /* Slot.swift */; };
+		C69D14F919FDCB0E00294996 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D14F819FDCB0E00294996 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C69D14B119FD82F400294996 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69D14B619FD82F400294996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C69D14B719FD82F400294996 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		C69D14F619FDC99C00294996 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		C69D14F819FDCB0E00294996 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				C69D14A119FD82F400294996 /* AppDelegate.swift */,
 				C69D14A319FD82F400294996 /* ViewController.swift */,
+				C69D14F819FDCB0E00294996 /* Factory.swift */,
+				C69D14F619FDC99C00294996 /* Slot.swift */,
 				C69D14A519FD82F400294996 /* Main.storyboard */,
 				C69D14A819FD82F400294996 /* Images.xcassets */,
 				C69D14AA19FD82F400294996 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69D14F919FDCB0E00294996 /* Factory.swift in Sources */,
 				C69D14A419FD82F400294996 /* ViewController.swift in Sources */,
+				C69D14F719FDC99C00294996 /* Slot.swift in Sources */,
 				C69D14A219FD82F400294996 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
